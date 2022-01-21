@@ -4,10 +4,15 @@
 }
 .body{
     background-color: rgb(247, 228, 206);
+    color: saddlebrown;
 }
 .logo{
     width: 4rem;
     height: 4rem;
+}
+.menu-item:hover {
+    transform: scale(1,2);
+    animation: changeColor 0,8s;
 }
 .section-one-container, .section-two-container{
     display: flex;
@@ -29,6 +34,7 @@
     font-size:x-large;
     justify-content: center;
     margin: 2% 2%;
+    font-weight: bold;
 }
 .contenedor{
     display: flex;
@@ -40,13 +46,16 @@
     height: 15rem;
     margin: auto 2%;
 }
+.subtitulos, .textos{
+    font-size: medium;
+}
 .contenedor-footer{
     display: flex;
     color: white;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-}
+} 
 
 li{
     list-style: none;
