@@ -1,0 +1,31 @@
+.section-one-container, .section-two-container{
+    display: flex;
+    justify-content: center;
+}
+.section-one-container{
+    .carousel{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content:right;
+    }
+}
+.section-two-container{
+    .photo-item{
+        width: 10rem;
+        height: 10rem;
+    }
+}
+.contenedor{
+    display: flex;
+    justify-content:center;
+    .fila{
+        .columna{
+            .imagen-recom{
+                width: 15rem;
+                height: 15rem;
+                margin: auto 2%;
+                }
+            }
+        }
+}

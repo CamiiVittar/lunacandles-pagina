@@ -1,62 +1,72 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.body{
-    background-color: rgb(247, 228, 206);
-    color: saddlebrown;
-}
-.logo{
-    width: 4rem;
-    height: 4rem;
-}
-.menu-item:hover {
-    transform: scale(1,2);
-    animation: changeColor 0,8s;
-}
-.section-one-container, .section-two-container{
-    display: flex;
-    justify-content: center;
-}
-.carousel{
-    width: 20%;
-    height: 100%;
-    display: flex;
-    justify-content:right;
-}
-.photo-item{
-    width: 10rem;
-    height: 10rem;
-}
-.titulos{
-    display: flex;
-    text-align: center;
-    font-size:x-large;
-    justify-content: center;
-    margin: 2% 2%;
-    font-weight: bold;
-}
-.contenedor{
-    display: flex;
-    justify-content:center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.imagen-recom{
-    width: 15rem;
-    height: 15rem;
-    margin: auto 2%;
+.body {
+  background-color: #f7e4ce;
+  color: saddlebrown;
 }
-.subtitulos, .textos{
-    font-size: medium;
-}
-.contenedor-footer{
-    display: flex;
-    color: white;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-} 
 
-li{
-    list-style: none;
+header nav div a .logo {
+  width: 4rem;
+  height: 4rem;
 }
+header nav div div ul .menu-item:hover {
+  transform: scale(1, 2);
+  animation: changeColor 0, 8s;
+}
+
+.section-one-container, .section-two-container {
+  display: flex;
+  justify-content: center;
+}
+
+.section-one-container .carousel {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.section-two-container .photo-item {
+  width: 10rem;
+  height: 10rem;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+.contenedor .fila .columna .imagen-recom {
+  width: 15rem;
+  height: 15rem;
+  margin: auto 2%;
+}
+
+.titulos {
+  display: flex;
+  text-align: center;
+  font-size: x-large;
+  justify-content: center;
+  margin: 2% 2%;
+  font-weight: bold;
+}
+
+.subtitulos, .textos {
+  font-size: medium;
+}
+
+.contenedor-footer {
+  display: flex;
+  color: white;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */
