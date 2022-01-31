@@ -1,8 +1,6 @@
-.section-one-container, .section-two-container{
+.section-one-container{
     display: flex;
     justify-content: center;
-}
-.section-one-container{
     .carousel{
         width: 20%;
         height: 100%;
@@ -11,6 +9,8 @@
     }
 }
 .section-two-container{
+    display: flex;
+    justify-content: center;
     .photo-item{
         width: 10rem;
         height: 10rem;

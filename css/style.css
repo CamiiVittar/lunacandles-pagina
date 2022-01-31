@@ -17,11 +17,10 @@ header nav div div ul .menu-item:hover {
   animation: changeColor 0, 8s;
 }
 
-.section-one-container, .section-two-container {
+.section-one-container {
   display: flex;
   justify-content: center;
 }
-
 .section-one-container .carousel {
   width: 20%;
   height: 100%;
@@ -29,6 +28,10 @@ header nav div div ul .menu-item:hover {
   justify-content: right;
 }
 
+.section-two-container {
+  display: flex;
+  justify-content: center;
+}
 .section-two-container .photo-item {
   width: 10rem;
   height: 10rem;
