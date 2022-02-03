@@ -2,12 +2,8 @@
     margin: 0;
     padding: 0;
 }
-.body{
-    background-color: rgb(247, 228, 206);
-    color: saddlebrown;
-}
 
-
+@import "base/extends";
 @import "base/header";
 @import "components/principal";
 @import "components/productos";
@@ -16,3 +12,8 @@
 @import "components/contacto";
 @import "base/titulos";
 @import "base/footer";
+@import "base/mixin";
+
+.body{
+    @extend %body;
+}

@@ -1,11 +1,10 @@
 .titulos{
-    display: flex;
-    text-align: center;
-    font-size:x-large;
-    justify-content: center;
-    margin: 2% 2%;
-    font-weight: bold;
+    @extend %contenedores;
+    @extend %titulos;
 }
-.subtitulos, .textos{
-    font-size: medium;
+.subtitulos{
+    @extend %subtitulos;
+}
+.textos{
+    @extend %textos;
 }

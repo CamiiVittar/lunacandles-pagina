@@ -3,9 +3,35 @@
   padding: 0;
 }
 
+.contenedor-footer, .titulos, .contenedor, .section-two-container, .section-one-container {
+  display: flex;
+  justify-content: center;
+}
+
 .body {
   background-color: #f7e4ce;
   color: saddlebrown;
+}
+
+.titulos {
+  text-align: center;
+  font-size: x-large;
+  margin: 2% 2%;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-display: swap;
+}
+
+.textos, .subtitulos {
+  font-size: medium;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-display: swap;
+}
+
+.subtitulos {
+  font-weight: bold;
+  font-display: swap;
 }
 
 header nav div a .logo {
@@ -17,10 +43,6 @@ header nav div div ul .menu-item:hover {
   animation: changeColor 0, 8s;
 }
 
-.section-one-container {
-  display: flex;
-  justify-content: center;
-}
 .section-one-container .carousel {
   width: 20%;
   height: 100%;
@@ -28,42 +50,19 @@ header nav div div ul .menu-item:hover {
   justify-content: right;
 }
 
-.section-two-container {
-  display: flex;
-  justify-content: center;
-}
 .section-two-container .photo-item {
   width: 10rem;
   height: 10rem;
 }
 
-.contenedor {
-  display: flex;
-  justify-content: center;
-}
 .contenedor .fila .columna .imagen-recom {
   width: 15rem;
   height: 15rem;
   margin: auto 2%;
 }
 
-.titulos {
-  display: flex;
-  text-align: center;
-  font-size: x-large;
-  justify-content: center;
-  margin: 2% 2%;
-  font-weight: bold;
-}
-
-.subtitulos, .textos {
-  font-size: medium;
-}
-
 .contenedor-footer {
-  display: flex;
   color: white;
-  justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
 }

@@ -1,6 +1,5 @@
 .section-one-container{
-    display: flex;
-    justify-content: center;
+    @extend %contenedores;
     .carousel{
         width: 20%;
         height: 100%;
@@ -9,16 +8,14 @@
     }
 }
 .section-two-container{
-    display: flex;
-    justify-content: center;
+    @extend %contenedores;
     .photo-item{
         width: 10rem;
         height: 10rem;
     }
 }
 .contenedor{
-    display: flex;
-    justify-content:center;
+    @extend %contenedores;
     .fila{
         .columna{
             .imagen-recom{
