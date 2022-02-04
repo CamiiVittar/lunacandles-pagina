@@ -1,5 +1,5 @@
 .titulos{
-    @extend %contenedores;
+    @include contenedores (flex, center);
     @extend %titulos;
 }
 .subtitulos{

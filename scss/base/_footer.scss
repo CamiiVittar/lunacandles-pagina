@@ -1,5 +1,5 @@
 .contenedor-footer{
-    @extend %contenedores;
+    @include contenedores (flex, center);
     color: white;
     flex-wrap: wrap;
     flex-direction: row;

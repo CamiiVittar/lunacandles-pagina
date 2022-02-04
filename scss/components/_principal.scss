@@ -1,21 +1,23 @@
+
+@import "../base/mixin";
+
 .section-one-container{
-    @extend %contenedores;
+    @include contenedores (flex, center);
     .carousel{
         width: 20%;
         height: 100%;
-        display: flex;
-        justify-content:right;
+        @include contenedores (flex, right);
     }
 }
 .section-two-container{
-    @extend %contenedores;
+    @include contenedores (flex, center);
     .photo-item{
         width: 10rem;
         height: 10rem;
     }
 }
 .contenedor{
-    @extend %contenedores;
+    @include contenedores (flex, center);
     .fila{
         .columna{
             .imagen-recom{
