@@ -4,7 +4,7 @@
 .section-one-container{
     @include contenedores (flex, center);
     .carousel{
-        width: 20%;
+        width: 30%;
         height: 100%;
         @include contenedores (flex, right);
     }

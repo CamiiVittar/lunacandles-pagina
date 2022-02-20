@@ -1,0 +1,36 @@
+// @import "../base/mixin";
+// @media screen and (max-width: 770px) {
+//     .section-one-container{
+//         @include contenedores (flex, center);
+//         .carousel{
+//             width: 30%;
+//             height: 100%;
+//             @include contenedores (flex, right);
+//         }
+//         .section-two-container{
+//             @include contenedores (flex, center);
+//             .photo-item{
+//                 width: 10rem;
+//                 height: 10rem;
+//                 flex-direction: column;
+//             }
+//         }
+//     }
+@media (max-width:768px){
+    .carousel-inner{
+        display: none;
+    }
+    .section-two-container .productos-principal .col{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contenedor .fila .columna{
+        justify-content: center;
+    }
+}
+@media (max-width:991px){
+    .container .row .col .imagen-post{
+        justify-content: center;
+    }
+
+}
