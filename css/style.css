@@ -8,18 +8,11 @@
     display: none;
   }
 
-  .section-two-container .productos-principal .col {
-    flex-direction: column;
+  .container .fila .columna .imagen-post {
+    height: 90%;
+    width: 90%;
     justify-content: center;
-  }
-
-  .contenedor .fila .columna {
-    justify-content: center;
-  }
-}
-@media (max-width: 991px) {
-  .container .row .col .imagen-post {
-    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 .body {
@@ -88,11 +81,11 @@ header nav div div ul .menu-item:hover {
 }
 
 .imagen-post {
-  width: 25rem;
-  height: 25rem;
+  width: 90%;
+  height: 90%;
   display: flex;
   justify-content: center;
-  margin-bottom: 2%;
+  margin: 3% 3%;
 }
 
 .titulos {
@@ -106,6 +99,7 @@ header nav div div ul .menu-item:hover {
   color: white;
   flex-wrap: wrap;
   flex-direction: row;
+  margin-top: 3%;
 }
 .contenedor-footer .item-social {
   margin-left: 3%;
