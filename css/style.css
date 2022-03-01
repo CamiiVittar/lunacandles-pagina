@@ -8,10 +8,22 @@
     display: none;
   }
 
-  .container .fila .columna .imagen-post {
-    height: 90%;
-    width: 90%;
+  .section-two-container .productos-principal .col {
+    flex-direction: column;
     justify-content: center;
+  }
+
+  .contenedor .fila .columna {
+    justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  .container .fila .columna .imagen-post {
+    height: 100%;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
   }
 }
@@ -81,8 +93,8 @@ header nav div div ul .menu-item:hover {
 }
 
 .imagen-post {
-  width: 90%;
-  height: 90%;
+  width: 20rem;
+  height: 20rem;
   display: flex;
   justify-content: center;
   margin: 3% 3%;
